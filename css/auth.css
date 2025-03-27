@@ -339,8 +339,19 @@ input:focus {
     border-bottom-left-radius: 4px;
 }
 
+
+
 .left svg {
     height: 40px;
     width: auto;
     margin: 20px;
+}
+
+@media (max-width:480px) {
+    .session {
+        height: max-content;
+    }
+    .left {
+        display: none;
+    }
 }
